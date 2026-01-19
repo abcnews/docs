@@ -24,7 +24,7 @@ export default {
 
   // Some additional configuration options and their defaults:
   theme: ["glacier", "sun-faded"], // try "light", "dark", "slate", etc.
-  header: "<div style='width: 100%; text-align: right'><em><a href='https://bne.social/@phocks'>JB</a></em></div>", // what to show in the header (HTML)
+  header: "<div style='width: 100%; text-align: right'><em><a href='https://www.abc.net.au'>ABC</a></em></div>", // what to show in the header (HTML)
   // footer: "Built with Observable.", // what to show in the footer (HTML)
   // sidebar: true, // whether to show the sidebar
   // toc: true, // whether to show the table of contents
