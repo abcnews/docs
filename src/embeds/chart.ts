@@ -3,7 +3,7 @@ import {FileAttachment, resize} from "observablehq:stdlib";
 
 export async function Chart() {
   const gistemp = await FileAttachment("../data/gistemp.csv").csv({typed: true});
-  return resize((width: any) =>
+  return resize((width: number) =>
     Plot.plot({
       width,
       y: {grid: true},
