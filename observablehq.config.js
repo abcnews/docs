@@ -1,21 +1,21 @@
 // See https://observablehq.com/framework/config for documentation.
 export default {
   // The app’s title; used in the sidebar and webpage titles.
-  title: "Experiments",
+  title: "Dev Experiments",
 
   // The pages and sections in the sidebar. If you don’t specify this option,
   // all pages will be listed in alphabetical order. Listing pages explicitly
   // lets you organize them into sections and have unlisted pages.
   pages: [
-    {name: "What is Framework?", path: "/what-is-framework"},
-    {
-      name: "Miscellaneous",
-      open: false,
-      pages: [
-        {name: "Misc", path: "/misc"},
-      ]
-    },
-    {name: "Credits", path: "/credits"},
+    // {name: "Welcome", path: "/welcome"},
+    // {
+    //   name: "Miscellaneous",
+    //   open: false,
+    //   pages: [
+    //     {name: "Misc", path: "/misc"},
+    //   ]
+    // },
+    { name: "Info & Credits", path: "/info" },
   ],
 
   // Content to add to the head of the page, e.g. for a favicon:
@@ -40,8 +40,9 @@ export default {
   // style: "custom-style.css"
 
   home: `<span style="display: flex; align-items: center; font-weight: 500; gap: 0.5rem; margin-left: -0.5rem; color: var(--theme-foreground);">
-    ${logo()} Experiments
+    ${logo()} Dev Experiments
   </span>`,
+  dynamicPaths: ["/embeds/chart.js"],
 };
 
 function logo() {
