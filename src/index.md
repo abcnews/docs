@@ -1,5 +1,5 @@
 ---
-toc: false
+toc: true
 ---
 
 # Welcome
@@ -29,7 +29,7 @@ display(greeting("World"))
 We can output charts.
 
 ```js echo
-await Chart()
+Chart()
 ```
 
 ## Other
