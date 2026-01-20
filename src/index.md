@@ -9,14 +9,14 @@ import { Chart } from "/embeds/chart.js"
 ```
 
 ```ts echo
-const x = () => "Hello World"
+const x: string = () => "Hello World"
 
 function greeting(name) {
   return html`Hello, <i>${name}</i>!`
 }
 ```
 
-```ts echo
+```js echo
 document.createTextNode("[insert chart here]")
 ```
 
