@@ -4,8 +4,8 @@ toc: true
 
 # Welcome
 
-```ts
-import { Chart } from "/embeds/chart.js"
+```js
+import { Chart } from "./embeds/chart.js"
 ```
 
 ```ts echo

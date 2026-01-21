@@ -13,10 +13,10 @@ export default {
       name: "Miscellaneous",
       open: false,
       pages: [
-        {name: "Misc", path: "/misc"},
+        {name: "Misc", path: "/misc/"},
       ]
     },
-    { name: "Info & Credits", path: "/info" },
+    { name: "Info & Credits", path: "/info/" },
   ],
 
   // Content to add to the head of the page, e.g. for a favicon:
