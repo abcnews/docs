@@ -15,3 +15,12 @@ export const emitResize = (height: number) => {
 
   window.parent.postMessage(payload, "*");
 };
+
+export const autoResize = () => {
+  const observer = new ResizeObserver(() => {
+    const height = document.body.scrollHeight + 64;
+    emitResize(height);
+  });
+
+  observer.observe(document.body);
+};

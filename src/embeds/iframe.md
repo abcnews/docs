@@ -1,21 +1,25 @@
 ---
+# Start iframe blank
 sidebar: false
 header: false
 footer: false
 pager: false
-theme: "air"
+# End iframe blank
+theme: [air, near-midnight]
 ---
 
 ```js
-import { Chart } from "./chart.js";
-import { emitResize } from "../lib/iframeResizer.js";
-
-addEventListener("resize", () => {
-  const height = document.body.clientHeight;
-  emitResize(height);
-});
+import { Chart } from "./chart.js"
+import { autoResize } from "../lib/iframeResizer.js"
 ```
 
 ```js
-Chart();
+autoResize();
+display(await Chart())
 ```
+
+<style>
+  #observablehq-center {
+    margin: 0;
+  }
+</style>
