@@ -18,7 +18,7 @@ export const emitResize = (height: number) => {
 
 export const autoResize = () => {
   const observer = new ResizeObserver(() => {
-    const height = document.body.scrollHeight + 64;
+    const height = document.body.scrollHeight;
     emitResize(height);
   });
 

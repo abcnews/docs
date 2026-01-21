@@ -19,7 +19,7 @@ display(await Chart())
 ```
 
 <style>
-  #observablehq-center {
+  #observablehq-center, #observablehq-main, .observablehq {
     margin: 0;
   }
 </style>
