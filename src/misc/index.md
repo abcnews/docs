@@ -12,7 +12,7 @@ Here are just some miscellaneous experiments.
 import confetti from "npm:canvas-confetti"
 ```
 
-We imported `canvas-confetti` from npm and we can use it to create confetti!
+If we `canvas-confetti` from npm we can use it to create confetti!
 
 ```js
 Inputs.button("Throw confetti! 🎉", { reduce: () => confetti() })
@@ -20,9 +20,9 @@ Inputs.button("Throw confetti! 🎉", { reduce: () => confetti() })
 
 ---
 
-## Other experiments
+## Web components
 
-Let's import a few custom elements we made in Svelte.
+Let's import and define globally a few [custom elements](https://svelte.dev/docs/svelte/custom-elements) we made in Svelte and exported as [Web Components](https://developer.mozilla.org/en-US/docs/Web/API/Web_components) so we can use them here.
 
 ```js echo
 import "../lib/sample-web-components.js"
