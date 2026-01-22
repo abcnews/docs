@@ -4,21 +4,21 @@ toc: true
 
 # Hello World!
 
-This website is a home for [ABC Developers](https://github.com/abcnews/) expiriments for the web. It's a static site built using [Observable Framework](https://observablehq.com/framework/) which lets us experiment with data and charts and all kinds of stuff.
+This website is intended to be a playground for [ABC Developers](https://github.com/abcnews/) expiriments for the web. It's a static site built using [Observable Framework](https://observablehq.com/framework/) which lets us experiment with data and charts and all kinds of stuff.
 
 We're just getting started so check back later for more.
 
 ---
 
-## Here's some code
+## A brief introduction
 
-We can do imports:
+We can do JavaScript imports:
 
 ```js echo
 import { Chart } from "./embeds/chart.js"
 ```
 
-Here we can run code, define function (and display the code):
+Here we are displaying TypeScript code (and running it):
 
 ```ts echo
 const x: string = () => "Hello World"
@@ -28,7 +28,7 @@ function greeting(name) {
 }
 ```
 
-We can then call those functions and have them display:
+Afterwards we can call those functions:
 
 ```js echo
 greeting("World")
