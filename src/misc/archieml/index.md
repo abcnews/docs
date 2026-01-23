@@ -4,7 +4,7 @@ An experiment with [ArchieML](https://archieml.org/) on the web.
 
 Here's the Google Doc:
 
-https://docs.google.com/document/d/1GIth0dexxcFBKUr5Tchcd2uz4Az-YbtipHKj6I7SinM/edit?tab=t.0
+https://docs.google.com/document/d/1GIth0dexxcFBKUr5Tchcd2uz4Az-YbtipHKj6I7SinM/edit?usp=sharing
 
 ---
 
